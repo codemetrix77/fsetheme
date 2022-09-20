@@ -34,9 +34,9 @@ a.wp-block-button__link:active {
 }   
 
 :root {
-    --var-baseline : 4px;
-    --var-small: 8px;
-    --var-medium: 16px;
-    --var-large: 24px;
-    --var-x-large: 48px;    
+    --var-spacing-baseline : 4px;
+    --var-spacing-small: 8px;
+    --var-spacing-medium: 16px;
+    --var-spacing-large: 24px;
+    --var-spacing-x-large: 48px;    
 }
