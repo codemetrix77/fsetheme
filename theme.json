@@ -1,0 +1,199 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"settings": {
+        "layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		},
+        "spacing": {
+			"units": []
+		},
+        "custom": {
+			"spacing": {
+				"baseline": "4px",
+				"small": "8px",
+				"medium": "16px",
+				"large": "24px",
+				"x-large": "40px"
+			}
+        },
+		"appearanceTools": true,
+		"color": {
+			"duotone": [],
+            "customDuotone": false,
+            "defaultGradients": false,
+			"gradients": [],
+			"customGradient": false,
+            "defaultPalette": false,
+            "spacing": {
+                "blockGap": "32px",
+                "margin": {
+                    "bottom": "",
+                    "left": "",
+                    "right": "",
+                    "top": ""
+                }
+            },
+            "palette": [
+				{
+					"color": "#9C27B0",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#E91E63",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "White",
+					"slug": "white"
+				},
+				{
+					"color": "#FAFAFA",
+					"name": "Neutral 0",
+					"slug": "neutral-0"
+				},
+				{
+					"color": "#F5F5F5",
+					"name": "Neutral 1",
+					"slug": "neutral-1"
+				},
+				{
+					"color": "#EEEEEE",
+					"name": "Neutral 2",
+					"slug": "neutral-2"
+				},
+				{
+					"color": "#E0E0E0",
+					"name": "Neutral 3",
+					"slug": "neutral-3"
+				},				{
+					"color": "#BDBDBD",
+					"name": "Neutral 4",
+					"slug": "neutral-4"
+				},
+				{
+					"color": "#757575",
+					"name": "Neutral 5",
+					"slug": "neutral-5"
+				},
+				{
+					"color": "#616161",
+					"name": "Neutral 6",
+					"slug": "neutral-6"
+				},
+				{
+					"color": "#F5F5F5",
+					"name": "Neutral 1",
+					"slug": "neutral-1"
+				}
+
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+                    "fontFamily": "'Roboto', sans-serif;",
+                    "name": "Roboto",
+                    "slug": "roboto",
+                    "fontFace": [
+                        {
+                            "fontFamily": "'Roboto', sans-serif;",
+                            "fontWeight": "100 200 300 400 500 600 700 800 900",
+                            "fontStyle": "normal",
+                            "src": [ "https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" ]
+                        },
+                        {
+                            "fontFamily": "'Roboto', sans-serif;",
+                            "fontWeight": "100 200 300 400 500 600 700 800 900",
+                            "fontStyle": "italic",
+                            "src": [ "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" ]
+                        }
+                    ]
+                },
+				{
+                    "fontFamily": "'Roboto Mono', monospace;",
+                    "name": "Roboto Mono",
+                    "slug": "roboto-mono",
+                    "fontFace": [
+                        {
+                            "fontFamily": "'Roboto Mono', monospace;",
+                            "fontWeight": "100 200 300 400 500 600 700 800 900",
+                            "fontStyle": "normal",
+                            "src": [ "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap" ]
+                        },
+                        {
+                            "fontFamily": "'Roboto Mono', monospace;",
+                            "fontWeight": "100 200 300 400 500 600 700 800 900",
+                            "fontStyle": "italic",
+                            "src": [ "https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" ]
+                        }
+                    ]
+                }
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "14px",
+					"slug": "small"
+				},
+				{
+					"name": "Normal",
+					"size": "16px",
+					"slug": "normal"
+				},
+				{
+					"name": "Medium",
+					"size": "20",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "24px",
+					"slug": "large"
+				},
+				{
+					"name": "X-Large",
+					"size": "32px",
+					"slug": "xlarge"
+				}
+			]
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 2,
+    "styles": {
+		"blocks": {
+			"core/list": {
+                "links": {
+                    "elements": {
+                        ":hover" : {
+                            "typography" : {
+                                "fontSize": "33px"
+                            }             
+                        }
+                    }
+                },
+				"spacing": {
+					"margin": "20px"
+				},
+                "typography":{ 
+                    "fontSize": "28px"
+                }
+            }
+        }
+    }
+}

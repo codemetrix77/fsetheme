@@ -1,0 +1,42 @@
+/*
+Theme Name: FSE Test.
+Author: Codemetrix.
+Description: Custom Built for test.
+Version: 1.
+*/
+
+html {
+    font-size: 0.875rem;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+        font-size: calc(1rem + 2 * ((100vw - 20rem) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 0.875rem;
+    }
+  }
+  
+
+  a.wp-block-button__link {
+    background: var(--wp--preset--color--primary) !important;
+}
+a.wp-block-button__link:hover {
+    background: var(--wp--preset--color--black) !important;
+} 
+a.wp-block-button__link:focus {
+    background: var(--wp--preset--color--neutral-3) !important;
+}   
+a.wp-block-button__link:active {
+    background: var(--wp--preset--color--neutral-2) !important;
+}   
+
+:root {
+    --var-baseline : 4px;
+    --var-small: 8px;
+    --var-medium: 16px;
+    --var-large: 24px;
+    --var-x-large: 48px;    
+}
